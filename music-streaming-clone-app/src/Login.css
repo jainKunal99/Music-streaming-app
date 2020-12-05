@@ -1,0 +1,22 @@
+.login{
+    /**/
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login > img{
+    width: 70%;
+
+}
+
+/* 1db954 1DD05D */
+.login > a{
+    padding: 20px;
+    background-color: #1db954;
+    font-weight: bold;
+    border-radius: 99px;
+    color: white;
+    text-decoration: none;
+}

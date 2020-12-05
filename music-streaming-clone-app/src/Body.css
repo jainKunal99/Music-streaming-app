@@ -1,0 +1,46 @@
+.body{
+   flex: 0.8;      /*Says the body to take 80% of width*/  
+    background: linear-gradient(to bottom left,rgb(48,120,35), rgba(0,0,0,1));
+    color: white;
+    height: 100vh;
+    padding: 30px;
+    overflow-y: overlay;
+}
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    
+}
+.body_infoText{
+    flex: 1;
+}
+.body_infoText > h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.body_infoText > p{
+    font-size: 14px;
+}
+.body_info > img{
+    height: 20vh; 
+    margin: 0px 20px;
+}
+.body_songs{
+    margin: 20px -30px; 
+}
+.body_icons{
+    display: flex;
+    align-items: center;
+}
+.body_icons > .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+.body_shuffle{
+    font-size: 80px !important; 
+    margin: 20px 0px 20px 50px;
+}
+.body_shuffle:hover{
+    transition: 100ms transform ease-in; 
+    transform: scale(1.08);
+}
